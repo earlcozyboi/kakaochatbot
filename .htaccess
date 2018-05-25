@@ -1,7 +1,7 @@
 Options +Multiviews
 RewriteEngine on
 
-RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteCond %{keyboard} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
-RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{keyboard}.php -f
 RewriteRule ^(.*?)/?$ /$1.php [NC,L]
