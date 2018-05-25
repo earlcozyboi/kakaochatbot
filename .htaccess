@@ -1,3 +1,4 @@
+Options Multiviews
 RewriteEngine on
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
